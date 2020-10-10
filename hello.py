@@ -9,6 +9,8 @@ def hello(what):
 def say_what():
     return 'world'
 
+def noweHello(what):
+    print('New Hello, {}!'.format(what))
 
 def main():
     hello(say_what())
