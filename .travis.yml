@@ -7,6 +7,6 @@ python:
 env:
 - SECRET=KEY
 script:
-- python print(SECRET)
+- python print(os.environ.get(SECRET))
 - py.test -v
 
