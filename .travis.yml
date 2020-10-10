@@ -3,7 +3,10 @@ sudo: false
 python:
 - "2.7"
 - "3.4"
-- "3.5"
+- "3.8"
 env:
 - SECRET=KEY
-script: py.test -v
+script:
+- python print(SECRET)
+- py.test -v
+
