@@ -9,6 +9,8 @@ def hello(what):
 def say_what():
     return 'world'
 
+def hello2(what):
+    print(what)
 
 def main():
     hello(say_what())
